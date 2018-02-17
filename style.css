@@ -1,0 +1,29 @@
+
+img.text-wrapped {
+    float: left;
+    max-width: 100%;
+    height: auto;
+}
+
+img.custom-thumbnail {
+    width: 45%;
+    height: auto;
+    display: inline-flex;
+}
+
+@media (max-width: 767px) {
+    ul.dropdown-menu {
+        position: static;
+        width: 100%;
+        border-radius:0;
+        border: none;
+      }    
+}
+
+@media (max-width: 600px) {
+    img.text-wrapped {
+        float: none;
+        max-width: 100%;
+        height: auto;
+    }
+}
