@@ -11,6 +11,57 @@ img.custom-thumbnail {
     display: inline-flex;
 }
 
+img.big_display {
+    width: 100%;
+    height: auto;
+}
+
+.selected {
+    padding: 5px;
+    border: 5px solid #8d8741;
+}
+
+.centered {
+    align-items: center;
+    text-align: center;
+}
+
+table, th {
+    text-align: center;
+}
+
+body {
+    background-color: #fbeec1;
+}
+
+.backgrounded {
+    background-color: white;
+    margin-bottom: 5%;
+    padding: 5%;
+    align-items: center;
+}
+
+h1 {
+    color: #659dbd;
+}
+
+.navbar {
+    background-color: #659dbd;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: white;
+}
+
+.navbar-default .navbar-brand {
+    background-color: #8d8741;
+    color: white;
+}
+
+.navbar-default .navbar-nav>li>a {
+    color: white;
+}
+
 @media (max-width: 767px) {
     ul.dropdown-menu {
         position: static;
